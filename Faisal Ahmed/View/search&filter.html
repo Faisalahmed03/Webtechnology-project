@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search & Filter</title>
+  <link rel="stylesheet" href="../Public/style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="search-bar">
+    <h2>Search</h2>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Type to search...">
+      <button type="submit" id="search-button">Search</button>
+    </form>
+  </div>
+
+  <div class="filter-panel">
+    <h2>Filters</h2>
+    <form id="filter-form">
+      <label><input type="checkbox" name="category" value="A"> Category A</label>
+      <label><input type="checkbox" name="category" value="B"> Category B</label>
+      <label><input type="checkbox" name="category" value="C"> Category C</label>
+      <button type="submit" id="filter-button">Apply Filters</button>
+    </form>
+  </div>
+
+  <div class="results-list">
+    <h2>Results</h2>
+    <ul id="results">
+      <!-- Results will be inserted here -->
+    </ul>
+  </div>
+  <script src = "search&filter.js"></script>
+</body>
+</html>

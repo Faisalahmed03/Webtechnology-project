@@ -1,0 +1,32 @@
+  body {
+      font-family: sans-serif;
+    }
+    div {
+        border: 1px solid #000;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+
+    
+
+    .randomization-section {
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input, select, button {
+      padding: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+.rbutton {
+      padding: 5px;
+      margin-bottom: 10px;
+      width:50%;
+     
+    }

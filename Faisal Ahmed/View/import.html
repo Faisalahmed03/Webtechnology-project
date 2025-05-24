@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bulk Import Questions</title>
+  <link rel="stylesheet" href="../Public/import.css">
+</head>
+<body class="body">
+  <h1>Bulk Import Questions</h1>
+  <div class="bulk-import-section">
+    <h2>Download CSV Template</h2>
+    <button type="button" id="download-template-btn"class="button">Download Template</button>
+  </div>
+    <div class="bulk-import-section">
+    <h2>Upload and Preview</h2>
+    <form id="upload-form">
+      <label class="label">Upload CSV File</label>
+      <input type="file" id="csv-upload" name="csv-upload" accept=".csv" class="input">
+         <button type="submit" id="preview-upload-btn" class="button">Preview Upload</button>
+    </div>
+        </form>
+    <div class="bulk-import-section">
+    <h2>Confirm & Import</h2>
+    <p class="note">Check for errors in preview before confirming import.</p>
+    <button type="button" id="confirm-import-btn" class="button">Import Questions</button>
+    </div>
+</body>
+</html>

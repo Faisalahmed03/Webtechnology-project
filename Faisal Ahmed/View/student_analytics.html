@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Analytics</title>
+  <link rel="stylesheet" href="../Public/student_analytics.css" />
+</head>
+<body>
+  <form method="POST">
+    <h1>Student Analytics</h1>
+
+    <div class="analytics-section">
+      <h2>Skill Matrix</h2>
+      <label for="student-id">Student ID</label>
+      <input type="text" id="student-id" name="student-id" placeholder="e.g., STU001">
+      <button type="submit" name="submit-skill-matrix">View Skill Matrix</button>
+    </div>
+
+    <div class="analytics-section">
+      <h2>Weakness Report</h2>
+      <label for="report-topic">Select Topic</label>
+      <select id="report-topic" name="report-topic">
+        <option value="algebra">Algebra</option>
+        <option value="geometry">Geometry</option>
+        <option value="statistics">Statistics</option>
+      </select>
+      <button type="submit" name="submit-weakness-report">Generate Report</button>
+    </div>
+
+    <div class="analytics-section">
+      <h2>Practice Recommendations</h2>
+      <label for="focus-area">Focus Area</label>
+      <input type="text" id="focus-area" name="focus-area" placeholder="e.g., Linear Equations">
+      <button type="submit" name="submit-recommend">Recommend Practice Questions</button>
+    </div>
+
+    <div class="analytics-section">
+      <h2>Track Improvement Over Time</h2>
+      <label for="student-track-id">Student ID</label>
+      <input type="text" id="student-track-id" name="student-track-id" placeholder="e.g., STU001">
+      <button type="submit" name="submit-track-progress">Track Progress</button>
+    </div>
+  </form>
+
+  <?php if (!empty($output)): ?>
+    <div style="border: 1px solid #333; padding: 20px; background: #f9f9f9;">
+      <?= $output ?>
+    </div>
+  <?php endif; ?>
+</body>
+</html>

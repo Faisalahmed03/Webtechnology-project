@@ -1,0 +1,30 @@
+
+
+.body {
+    
+  font-family: sans-serif;
+}
+
+.bulk-import-section {
+  border: 1px solid #000;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input,
+.button {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.note {
+  font-size: 0.9em;
+  font-style: italic;
+}

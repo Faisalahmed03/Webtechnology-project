@@ -1,0 +1,95 @@
+ html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: white;
+      color: black;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+
+    nav {
+      padding: 10px 0;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      position: sticky;
+      top: 0;
+      background: white;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 20px auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+    .cta-button {
+      padding: 12px 25px;
+      border: 1px solid #000;
+      background: none;
+      cursor: pointer;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+    .cta-container {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .testimonial {
+      padding: 15px;
+      margin-top: 10px;
+      border-left: 5px solid #ccc;
+      background: #f9f9f9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #ccc;
+      margin-top: 40px;
+    }
+
+    #login-options {
+      display: none;
+      margin-top: 15px;
+    }
+
+    #login-options ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #login-options li {
+      margin: 5px 0;
+      cursor: pointer;
+      text-decoration: underline;
+    }

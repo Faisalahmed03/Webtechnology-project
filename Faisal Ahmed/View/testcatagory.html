@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Categories Manager</title>
+  <link rel="stylesheet" href="../Public/testcategory.css">
+</head>
+<body>
+
+  <h1>Category Manager</h1>
+
+  <div class="form-section">
+    <h2>Create Nested Category</h2>
+    <form id="create-category-form">
+      <label for="parent-category" class="label">Parent Category (optional)</label>
+      <input type="text" id="parent-category" name="parent-category" placeholder="e.g., Math" class="input">
+
+      <label for="new-category" class="label">New Category Name</label>
+      <input type="text" id="new-category" name="new-category" placeholder="e.g., Algebra" class="input">
+
+      <button type="submit" id="create-category-btn" class="button">Create Category</button>
+    </form>
+  </div>
+
+  <div class="form-section">
+    <h2>Bulk Assign Tests to Category</h2>
+    <form id="bulk-assign-form">
+      <label for="test-list" class="label">Test IDs (comma-separated)</label>
+      <input type="text" id="test-list" name="test-list" placeholder="e.g., 101, 102, 103" class="input">
+
+      <label for="assign-category" class="label">Assign to Category</label>
+      <input type="text" id="assign-category" name="assign-category" placeholder="e.g., Algebra" class="input">
+
+      <button type="submit" id="bulk-assign-btn" class="button">Assign Tests</button>
+    </form>
+  </div>
+
+  <div class="form-section">
+    <h2>Student Skill Level Selection</h2>
+    <form id="student-selection-form">
+      <label for="skill-level" class="label">Select Skill Level</label>
+      <select id="skill-level" name="skill-level" class="select">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+
+      <button type="submit" id="select-skill-btn" class="button">Select Level</button>
+    </form>
+  </div>
+
+</body>
+</html>
