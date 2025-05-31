@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  margin: 40px;
+}
+
+div {
+  border: 1px solid #000;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+button {
+  margin: 10px 5px 0 0;
+  padding: 8px 12px;
+}
+
+table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+.searchbar[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+

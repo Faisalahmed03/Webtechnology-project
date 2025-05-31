@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #111111;
+}
+
+header {
+  padding: 80px 20px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  background-color: #ffffff;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  color: #333333;
+}
+
+nav {
+  padding: 15px 0;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 1000;
+}
+
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #555;
+}
+
+section {
+  padding: 50px 30px;
+  max-width: 900px;
+  margin: 40px auto;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+.cta-button {
+  padding: 12px 30px;
+  border: 2px solid #000;
+  background-color: transparent;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+
+.cta-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.cta-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.testimonial {
+  padding: 20px;
+  margin-top: 15px;
+  border-left: 4px solid #000;
+  background-color: #f6f6f6;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 1px solid #000;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #555;
+}
+
+#login-options,
+#create-options {
+  display: none;
+  margin-top: 20px;
+}
+
+#login-options ul,
+#create-options ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  max-width: 200px;
+  margin-inline: auto;
+}
+
+#login-options li,
+#create-options li {
+  margin: 10px 0;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #000;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+#login-options li:hover,
+#create-options li:hover {
+  color: #444;
+}
